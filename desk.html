@@ -1,28 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html id="html">
 	<head>
 		<meta charset="utf-8" />
-		<title>David's Desk</title>
+		<link rel="stylesheet" type="text/css" href="stylesheet_ESL.css">
+		<link rel="shortcut icon" type="image/png" href="/favicon/img/logo-favicon.ico.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+		<link rel="manifest" href="/favicon/site.webmanifest">
+		<title> David's Desk</title>
+
 		<style type="text/css">
-			
+
 		</style>
 		<script type="text/javascript">
-			
+
 		</script>
 	</head>
 
 	<body>
-		<header>
-			<h1>Teacher David's Desk </h1>
+		<header class="header" style="width: 100%">
+			<h1 id="mainh1">Teacher David's Desk </h1>
 			<hr />
-			<p>menu menu menu menu menu menu menu menu menu menu menu menu menu menu</p>
-			
+			<p id="banner-menu">menu menu menu menu menu menu menu menu menu menu menu menu menu menu</p>
+
 			<hr />
 		</header>
+
+
+<!-- -------------------------------- -->
+
+
 		<main>
-			<section> <!--announcement section -->
-				<h2> Anouncements </h2>
-				<article>
+
+			<section class="important-dates">
+				<!--goes on LEFT side of window -->
+				<header>
+					<h3 id="dates-title"> Important Dates </h3>
+					<p id="dates-blurt"><i> Put these in your calendar. </i></p>
+				</header>
+				<div>
+					<h4 class="imptnt-date"> important date 3 </h4>
+
+				</div>
+				<div>
+					<h4 class="imptnt-date"> important date 2 </h4>
+				</div>
+				<div>
+					<h4 class="imptnt-date"> important date 1 </h4>
+				</div>
+			</section>
+
+			<aside class="class-progress"> <!-- start of assignment process section -->
+				<!-- goes on RIGHT side of window -->
+				<header>
+					<h3 id="cp-title"> Class Progress </h3>
+					<p id="cp-blurt"><i> Do you owe me any assignments, homework, or tests? </i></p>
+				</header>
+				<div>
+					<h4 class="assignment"> Assignment 3 </h4>
+
+				</div>
+				<div>
+					<h4 class="assignment"> Assignment 2 </h4>
+				</div>
+				<div>
+					<h4 class="assignment"> Assignment 1 </h4>
+				</div>
+			</aside> <!-- end of assignment process section -->
+
+			<section class="announcement-container"> <!--announcement section -->
+				<h2 id="announcement-title"> Announcements </h2>
+				<article class="announcement">
 					<header>
 						<h3> Most recent</h3>
 						 <div class="post-meta">
@@ -35,12 +84,12 @@
 					<section>
 						<div class="post-content">
 							<p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam volu</p>
-							
+
 						</div>
-					</section>						
-				
+					</section>
+
 				</article>
-				<article>
+				<article class="announcement">
 					<header>
 						<h3> 2nd most recent</h3>
 						 <div class="post-meta">
@@ -53,13 +102,13 @@
 					<section>
 						<div class="post-content">
 							<p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam volu</p>
-							
+
 						</div>
-						
-					</section>						
-				
+
+					</section>
+
 				</article>
-				<article>
+				<article class="announcement">
 					<header>
 						<h3> 3rd Most recent</h3>
 						 <div class="post-meta">
@@ -72,41 +121,28 @@
 					<section>
 						<div class="post-content">
 							<p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam volu</p>
-							
+
 						</div>
-						
-					</section>						
-				
+
+					</section>
+
 				</article>
 			</section>  <!--end of announcement section -->
-			<aside> <!-- start of assignment process section -->
-				<!--goes on RIGHT side of window -->
-				<header>
-					<h3> Class Progress </h3>
-					<p><i> Do you owe me any assignments, homework, or tests? </i></p>
-				</header>	
-				<div>
-					<h4> Assignment 3 </h4>
-					
-				</div>	
-				<div>
-					<h4> Assignment 2 </h4>
-				</div>	
-				<div>
-					<h4> Assignment 1 </h4>
-				</div>	
-			</aside> <!-- end of assignment process section -->
-			<section>
-				<!--goes on LEFT side of window -->
-				<header> </header>
-			</section>	
-			
+
+
 		</main>
+
+
+<!-- ------ footer ------------------ -->
+
+
 		<footer>
 			<hr />
-			<!-- do we really want/need a footer-->
-			Copyright &copy; 2021 Mrs Teacher David's Wife
-			<p> 👩‍💻 This site is hosted and mastered by Teacher David's wife. ✌ </p>
+			<div id="footer-content">
+				<!-- do we really want/need a footer-->
+				Copyright &copy; 2021 Mrs Teacher David's Wife
+				<p> 👩‍💻 This site is hosted and mastered by Teacher David's wife. ✌ </p>
+			</div>
 		</footer>
 	</body>
 </html>
