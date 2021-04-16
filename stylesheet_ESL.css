@@ -24,6 +24,12 @@ main{
 #mainh1 {
   padding-left: 3%;
   color: pink;
+}
+
+#mainh1 a {
+  color: inherit;
+  text-decoration: none;
+  text-color: pink;
 
 }
 
