@@ -99,7 +99,7 @@ ul.nav li.current a {
 
 .announcement {
   color: purple;
-background-color: rgba(24,96,72,0.1);
+  background-color: rgba(24,96,72,0.1);
   border: 1px solid gray;
   padding-left: 2%;
   margin-bottom: 5%;
@@ -154,6 +154,44 @@ article {
   margin: 10px;
   height: 100px;
 }
+
+/* ------- About & Powerpoints & Resources----- */
+/*-- This section is for all pages but index ---- */
+.about {
+  margin-left: 15%;
+  width: 80%;
+}
+
+.about-h1 {
+  padding-left: 25%;
+}
+
+#about .announcement-container {
+  padding-top: 100px;
+  overflow-y: hidden ;
+  float: left;
+  margin-left: 26px;
+  height: 520px;
+  width: 70%;
+  padding: 0% 2%;
+}
+
+#about .documents-container {
+  margin-left: 5%;
+  width: 45%;
+}
+
+.calendar, .teacher-picture {
+  float: left;
+  border: 1px dashed black;
+  padding: 5px;
+  margin-right: 7px;
+  height: 500px;
+  width: 17%;
+  background-color: azure;
+}
+
+
 
 
 /* ------- footer -------------------------- */
