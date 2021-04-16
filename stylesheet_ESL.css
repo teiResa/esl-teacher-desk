@@ -22,7 +22,7 @@ main{
 }
 
 #mainh1 {
-  padding-left: 2%;
+  padding-left: 3%;
   color: pink;
 
 }
@@ -31,6 +31,41 @@ main{
   padding: 0px 10px;
   color: white;
 }
+
+.wechat-button {
+  float: right;
+}
+.wechat-button li button {
+  float:left;
+
+  border:0px solid #189b80;
+  border-left:1px solid #189b80;
+
+
+  margin:0;
+  padding:0;
+  list-style:none;
+  height:35px;
+  line-height:35px;
+  background:#0d7963; /* you can change the backgorund color here. */
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:13px;
+
+  display:block;
+  padding:0 28px;
+  color:#ccece6;
+  text-decoration:none;
+
+}
+.wechat-button a {
+  display:block;
+  padding:0 28px;
+  color:#ccece6;
+  text-decoration:none;
+}
+/* .wechat-button a:hover {} */
+
+
 
 ul.nav {
 	margin:0;
@@ -162,6 +197,12 @@ article {
   width: 80%;
 }
 
+.teacher-card h2 {
+  text-align: center;
+  text: bold;
+  margin-bottom: 5px;
+}
+
 .about-h1 {
   padding-left: 25%;
 }
@@ -170,7 +211,7 @@ article {
   padding-top: 100px;
   overflow-y: hidden ;
   float: left;
-  margin-left: 26px;
+  margin-left: 20px;
   height: 520px;
   width: 70%;
   padding: 0% 2%;
@@ -181,17 +222,35 @@ article {
   width: 45%;
 }
 
-.calendar, .teacher-picture {
+.calendar, .teacher-card {
   float: left;
-  border: 1px dashed black;
+
   padding: 5px;
-  margin-right: 7px;
+  margin-right: 5px;
+  margin-left: 15px;
   height: 500px;
   width: 17%;
-  background-color: azure;
+  background-color: rgba(00,80,80,0.13);
+  /*rgba(00,80,80,0.15); *//* was azure. Did i like that better? */
+  border-radius: 35px;
 }
 
 
+
+.teacher-image img {
+  border: 3px solid slategray;
+  border-radius: 25px;
+  margin-left: ;
+  margin-right: ;
+  margin-top: 5%;
+}
+
+.teacher-info ul {
+   list-style-type: none;
+   margin-top: 35px;
+   margin-left: -10px;
+
+}
 
 
 /* ------- footer -------------------------- */
