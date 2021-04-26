@@ -153,6 +153,24 @@ ul.nav li.current a {
 
 }
 
+.doc-table {
+  width: 520px;
+  display: table;
+  border: 1px dashed;
+
+}
+
+.doc-table th {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  border: 1px dashed;
+}
+
+.doc-table tbody td {
+  padding-left: 6px;
+}
+
 article {
   border: 1px solid black;
   padding: ;
